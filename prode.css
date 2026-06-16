@@ -44,18 +44,12 @@ img {
 a {
     display: flex;
     align-self: center;
-    padding: 25px;
+    margin-top: 30px;
 }
 .tablas {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-}
-.partidos {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    background-color: aqua;
 }
 ol {
     display: flex;
@@ -64,10 +58,39 @@ ol {
 }
 p {
     text-align: center;
+    margin: 0%;
 }
 button {
     width: 30px;
 }
 .fixture {
-    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.resultadobandera {
+    display: flex;
+    align-items: center;
+
+}
+.filapartido {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    justify-content: space-between;
+    background-color: aqua;
+    border: 2px;
+    border-color: black;
+}
+.equipos {
+    flex-grow: 1;
+    text-align: center;
+}
+.messirve {
+    text-align: center;
+    flex-direction: column;
+    margin-top: 0%;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
 }
