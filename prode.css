@@ -67,7 +67,7 @@ button {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-right: 50px;
+    justify-content: center;
 }
 .resultadobandera {
     display: flex;
@@ -82,9 +82,9 @@ button {
     background-color: aqua;
     border: 2px;
     border-color: black;
+    white-space: nowrap;
 }
 .equipos {
-    flex-grow: 1;
     text-align: center;
 }
 .messirve {
@@ -101,5 +101,5 @@ button {
 }
 .totales {
     margin-top: 40px;
-    margin-left: 50px;
+    justify-content: center;
     }
