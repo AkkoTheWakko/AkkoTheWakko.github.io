@@ -1,0 +1,14 @@
+h1 {
+    text-align: center;
+}
+body {
+    background-color: rgb(80, 131, 3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.gap {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
