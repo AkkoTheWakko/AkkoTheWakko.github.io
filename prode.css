@@ -13,8 +13,7 @@ ul {
     display: flex;
     border-style: solid;
     border-color: black;
-    padding: 0%;
-    margin-bottom: auto;
+    border-collapse: collapse;
 }
 .nombres {
     background-color: rgb(116, 224, 116);
@@ -49,7 +48,7 @@ a {
 .tablas {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 ol {
     display: flex;
@@ -93,4 +92,11 @@ button {
     display: flex;
     justify-content:center ;
     align-items: center;
+}
+.nombres, .puntos, .fechasjugadas {
+    margin: 0%;
+    border-collapse: collapse;
+}
+.totales {
+    margin-top: auto;
 }
