@@ -14,6 +14,7 @@ ul {
     border-style: solid;
     border-color: black;
     padding: 0%;
+    margin-bottom: auto;
 }
 .nombres {
     background-color: rgb(116, 224, 116);
