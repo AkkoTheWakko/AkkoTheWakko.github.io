@@ -1,4 +1,4 @@
-h1 {
+h1, h3 {
     text-align: center;
 }
 body {
@@ -6,9 +6,35 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 25px;
 }
 .gap {
     display: flex;
     flex-direction: column;
     gap: 15px;
+}
+.resultadobandera {
+    display: flex;
+    align-items: center;
+    }
+.filapartido {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    justify-content: space-between;
+    background-color: aqua;
+    border: 2px;
+    border-color: black;
+    white-space: nowrap;
+}
+.englobar {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+.sticky {
+    position: fixed;
+    center: 0;
+    right: 30px;
+
 }
