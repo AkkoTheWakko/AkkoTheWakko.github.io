@@ -48,7 +48,8 @@ a {
 .tablas {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 ol {
     display: flex;
@@ -99,4 +100,5 @@ button {
 }
 .totales {
     margin-top: auto;
+    
 }
