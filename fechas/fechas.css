@@ -41,3 +41,15 @@ body {
 button {
     width: 30px;
 }
+.separacion {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: auto;
+}
