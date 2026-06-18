@@ -51,8 +51,12 @@ button {
     justify-content: center;
     align-items: center;
     width: auto;
-    height: auto;
+    height: 20px;
 }
 h4 {
     margin: 0%;
+}
+.gruposoctavos {
+    display: flex;
+    flex-direction: row;
 }
