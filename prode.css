@@ -6,15 +6,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 25px;
-}
-ul {
-    list-style-type: none;
-}
-li {
-    border-style: solid;
-    border-color: black;
-    border-width: 1px;
+    gap: 10px;
 }
 img {
     display: flex;
@@ -50,7 +42,6 @@ button {
 .resultadobandera {
     display: flex;
     align-items: center;
-
 }
 .filapartido {
     display: flex;
@@ -99,4 +90,27 @@ a {
 }
 .noborder {
     border-style: hidden;
+}
+li {
+    margin-left: 25px;
+    list-style: none;
+}
+.puntoscolor {
+    background-color: white;
+    padding: 10px;
+    border-style: groove;
+    border-color: red;
+}
+.gap {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+.reglas {
+    background-color: rgb(8, 124, 85);
+}
+ul {
+    display: flex;
+    gap: 8px;
+    flex-direction: column;
 }
